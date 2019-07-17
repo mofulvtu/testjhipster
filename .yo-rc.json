@@ -1,0 +1,34 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.liuzg.app"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "uaa",
+    "baseName": "uaa",
+    "packageName": "com.liuzg.app",
+    "packageFolder": "com/liuzg/app",
+    "serverPort": "9999",
+    "authenticationType": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZTZlYzJjZjMxOTQxZDU4OTRjOTczMWI4N2YyZjFhYzQ3MWFhNTk5OGMyZGVhNzVhOTc1NmI0MjY1ZDA5MmNjZTdmYTY4MGRkZjU1ZmQ3N2MxNjg4ZGRiNmUwNzA3ODQ0OGIwYzQzZjA3MDhiYTk0NGZlZmU4MjhlYzE0OTg1Y2Y=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true
+  }
+}
