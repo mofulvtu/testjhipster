@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.liuzg.app"
+    },
+    "jhipsterVersion": "6.1.2",
+    "applicationType": "microservice",
+    "baseName": "service2",
+    "packageName": "com.liuzg.app",
+    "packageFolder": "com/liuzg/app",
+    "serverPort": "8082",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmU5ZGQ2ZGNhNWVhZDY4Zjc0OTM3MzY5NmQwY2M1ZGU4OWUwODgwNDZkODRkYTc0NGY5YzlmY2IxNWUwMDc3M2NlODk0NTExZjgwNGUxMjQ0OTJkNmIwMmVkZmI3N2EzZGI1NjZiNjJmZmM1Yzk2ZGQ1YmYxMTZlYjEwMzliNmI=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
