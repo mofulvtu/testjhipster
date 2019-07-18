@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jhipster-registry" />
+      </profile>
+      <profile name="Annotation profile for Service 2" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/mapstruct/mapstruct-processor/1.3.0.Final/mapstruct-processor-1.3.0.Final.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/com/jolira/hickory/1.0.0/hickory-1.0.0.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/mapstruct/mapstruct/1.3.0.Final/mapstruct-1.3.0.Final.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/junit/junit/4.12/junit-4.12.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/assertj/assertj-core/3.11.1/assertj-core-3.11.1.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/com/google/guava/guava/19.0/guava-19.0.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/com/puppycrawl/tools/checkstyle/8.14/checkstyle-8.14.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/javax/inject/javax.inject/1/javax.inject-1.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/codehaus/plexus/plexus-container-default/1.6/plexus-container-default-1.6.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/springframework/spring-test/4.0.3.RELEASE/spring-test-4.0.3.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/springframework/spring-beans/4.0.3.RELEASE/spring-beans-4.0.3.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.RELEASE.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/joda-time/joda-time/2.9/joda-time-2.9.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/hibernate/hibernate-jpamodelgen/5.3.10.Final/hibernate-jpamodelgen-5.3.10.Final.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar" />
+          <entry name="$PROJECT_DIR$/../professionSoft/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar" />
+        </processorPath>
+        <module name="gateway" />
+        <module name="service-1" />
+        <module name="service-2" />
+        <module name="uaa" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gateway" target="1.8" />
+      <module name="jhipster-registry" target="1.8" />
+      <module name="service-1" target="1.8" />
+      <module name="service-2" target="1.8" />
+      <module name="uaa" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

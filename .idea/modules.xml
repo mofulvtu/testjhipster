@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/registry/jhipster-registry.iml" filepath="$PROJECT_DIR$/registry/jhipster-registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service1/service-1.iml" filepath="$PROJECT_DIR$/service1/service-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service2/service-2.iml" filepath="$PROJECT_DIR$/service2/service-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/testjhipster.iml" filepath="$PROJECT_DIR$/.idea/testjhipster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaa/uaa.iml" filepath="$PROJECT_DIR$/uaa/uaa.iml" />
+    </modules>
+  </component>
+</project>
